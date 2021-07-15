@@ -1,0 +1,138 @@
+header{
+	font-size: 20px;
+	font-weight: bold;
+	background: url(imagens/bg.jpg);
+	color: whitesmoke;
+	padding: 15px 20px;
+	text-align: center;
+}
+
+body{
+	background: url(imagens/wpp.png);
+	position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+	color: rgb(220, 193, 193);
+}
+
+main{
+	width: 350px;
+	margin: 0 auto;
+}
+
+form{
+	margin: 40px 0;
+}
+	
+div{
+	border-radius: 20px;
+	width: 350px;
+}
+
+form div{
+	padding: 40px;
+	border: 4px rgb(0, 255, 242) solid;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+form label{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+form legend{
+	display: block;
+	font-size: 20px;
+ 	margin-top: 30px;
+ 	margin-bottom: 20px;
+}
+
+form .cmc{
+	margin: 10px 0 0;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 5px 5px;
+	width: 350px;
+}
+
+.opacity{
+	opacity: 0.4;
+}
+.checkbox{
+	margin: 20px 0;
+}
+
+footer{
+	text-align: center;
+	background-color: rgb(253, 222, 174);
+	padding: 20px 0;
+}
+
+.copyright{
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 20px 0 0;
+}
+
+#enviar{
+	width: 40%;
+	padding: 15px 0;
+	background: #adff2f;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+#enviar:hover{
+	background: #ff8c00;
+	transform: scale(1.2);
+}
+
+#texto, #texto2{
+	text-align: center;
+	color: #aaff00;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+#img{
+	border: solid white 4px;
+	border-radius: 20px;
+	width: auto;
+}
+
+div div{
+	text-align: center;
+}
+
+@media screen and (max-width: 430px){
+	main{
+		width: auto;
+	}
+	
+	div{
+		width: auto;
+		margin: 0 15px;
+	}
+
+	.input-padrao{
+		width: 100%;
+	}
+
+	#img{
+		width: 100%;
+	}
+}
