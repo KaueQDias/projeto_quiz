@@ -1,6 +1,9 @@
 Projeto: Quiz de jogos
+
 📄 Descrição
+
 Desenvolvi esta aplicação web como um quiz simples sobre jogos digitais. Neste projeto, utilizei as linguagens fundamentais do desenvolvimento web: JavaScript para criar toda a lógica interativa do quiz, HTML para a estruturação do conteúdo e CSS para a estilização visual, construindo uma interface limpa e funcional. O usuário pode iniciar o quiz, responder a um conjunto de perguntas e ver sua pontuação final.
+
 
 ✨ Tecnologias utilizadas
 
@@ -9,6 +12,7 @@ JavaScript (ES6+)
 HTML5
 
 CSS3
+
 
 🚀 O que aprendi com este projeto
 
